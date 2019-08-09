@@ -26,6 +26,7 @@ void connectMyo(){
 
 
 //when registerForNotify calls your handler with standard set of parameters that have to be accounted for
+//Without headers, to refer to another function in a function, it has to be defined before its usage
 void templateHandler(BLERemoteCharacteristic* pBLERemoteCharacteristic, uint8_t* pData, size_t length, bool isNotify){
   //pBLERemoteChar... can essentially be ignored since we aren't handling everything with one function
   //pData depends on what is being handled and can be vastly different for each service
