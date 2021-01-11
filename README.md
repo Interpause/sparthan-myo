@@ -1,3 +1,7 @@
+# Archive Note
+
+Hm, forgot I made a annotated .ino file on how to use this library. Myo armband is out of production though. Really cool, would have used it for another project if it wasn't. That said, because of that I have decided to archive rather than delete this. Bye
+
 # Sparthan myo
 
 Arduino ESP32 library to communicate with the Myo Armband (Thalmic Labs) Bluetooth EMG armband. This library is currently a developer preview, and none of the features are guaranteed to be supported in future releases.
